@@ -1,0 +1,32 @@
+{
+  "name": "api-tester",
+  "version": "1.0.0",
+  "description": "collect API schemas, test against them",
+  "main": "index.js",
+  "dependencies": {
+    "generate-schema": "git+https://github.com/Nijikokun/generate-schema.git",
+    "json-hash": "^1.1.0",
+    "json-schema-generator": "^2.0.3",
+    "jsonschema": "^1.0.2",
+    "lodash": "^3.10.1",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "promise-series-node": "0.0.1",
+    "superagent": "^1.5.0",
+    "tv4": "^1.2.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crstffr/api-tester.git"
+  },
+  "author": "crstffr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crstffr/api-tester/issues"
+  },
+  "homepage": "https://github.com/crstffr/api-tester#readme"
+}

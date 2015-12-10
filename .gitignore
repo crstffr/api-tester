@@ -1,0 +1,8 @@
+*~
+.DS_Store
+*.pyc
+*.iml
+.idea
+node_modules
+jspm_packages
+bower_components
